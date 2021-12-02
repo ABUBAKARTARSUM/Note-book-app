@@ -10,7 +10,7 @@
 body {
   line-height: 1.5;
   font-weight: 300;
-  background-image: linear-gradient(#22c1c3, #fdbb2d);
+  background-image: linear-gradient(to right, #264653, #2a9d8f);
   height: 100vh;
 }
 
@@ -57,15 +57,16 @@ body {
 }
 
 .btn {
-  background: #ff6f59;
-  border: 2px solid #ff6f59;
+  background: #023047;
+  border: 1px solid #fff;
   color: #fff;
   padding: 0.55rem 0;
   width: 120px;
-  border-radius: 2px;
+  border-radius: 20px;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  margin-bottom: 1rem;
 }
 
 .btn:focus {
@@ -73,13 +74,13 @@ body {
 }
 
 .btn:hover {
-  background: #ff6048;
-  box-shadow: 0, 0, 8px 0 rgba(255, 96, 72, 0.33);
+  background: #023047;
+  box-shadow: 0, 0, 8px 0 #fff;
 }
 
 .note-list {
   margin: 2rem 0;
-  background-image: linear-gradient(#22c1c3, #fdbb2d);
+  background: #001219;
   padding: 2rem;
   border-radius: 5px;
 }
@@ -113,5 +114,17 @@ body {
 
 /*** alert ***/
 .warning {
-  border-color: rgba(255, 111, 89, 0.8) !important;
+  border-color: #e76f51 !important;
+}
+button .delete-note-btn {
+  background: #023047;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.55rem 0;
+  width: 120px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 1rem;
 }
